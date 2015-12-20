@@ -7,7 +7,12 @@ import org.junit.Test;
 @Category(IntegrationTest.class)
 public class JenkinsTestAppIntegrationTest {
 	@Test
-	public void greetGivenPerson() {
+	public void greetFoo() {
 		assertEquals("Hello foo!", JenkinsTestApp.greet("foo"));
+	}
+
+	@Test
+	public void greetBar() {
+		assertEquals("Hello bar!", JenkinsTestApp.greet("bar"));
 	}
 }
