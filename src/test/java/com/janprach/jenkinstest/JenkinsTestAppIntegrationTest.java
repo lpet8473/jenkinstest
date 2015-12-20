@@ -8,6 +8,6 @@ import org.junit.Test;
 public class JenkinsTestAppIntegrationTest {
 	@Test
 	public void greetGivenPerson() {
-		assertEquals("Hello foo!", JenkinsTestApp.greet("foo"));
+		assertEquals("Hello foo!", JenkinsTestApp.greet("bar"));
 	}
 }
